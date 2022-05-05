@@ -12,14 +12,14 @@ Complete the implementation of the simulation de-
 scribed in the rest of this specification.
 
 ## Simulation Overview
-Shadow Life is a graphical simulation of a world inhabited by creatures called gatherers. Their
+* Shadow Life is a graphical simulation of a world inhabited by creatures called gatherers. Their
 purpose in life is to gather fruit from the trees, and deposit them at stockpiles. Once they have
-gathered all the fruit from their trees, they rest in front of fences. </br></br>
-Making their life diffcult is the thief who aims to steal fruit from the stockpiles and place it in
+gathered all the fruit from their trees, they rest in front of fences. 
+* Making their life diffcult is the thief who aims to steal fruit from the stockpiles and place it in
 their hoards. The thief and gatherers follow rigid rules, and once they all reach their final goals (the
 fence), the simulation halts. They are quite industrious workers|with enough time, they could
-calculate anything that any computer can!</br></br>
-The behaviour of the simulation is entirely determined by the world file loaded when the Shadow
+calculate anything that any computer can!
+* The behaviour of the simulation is entirely determined by the world file loaded when the Shadow
 Life program starts: each gatherer, thief, and other element begins at a specified location and
 follows a set of rules to determine their behaviour. Once all gatherers and thieves have reached a
 fence, the simulation halts, and the amount of fruit at each stockpile and hoard is tallied up. The
