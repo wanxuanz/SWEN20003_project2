@@ -15,7 +15,7 @@ scribed in the rest of this specification.
 Shadow Life is a graphical simulation of a world inhabited by creatures called gatherers. Their
 purpose in life is to gather fruit from the trees, and deposit them at stockpiles. Once they have
 gathered all the fruit from their trees, they rest in front of fences. </br></br>
-Making their life dicult is the thief who aims to steal fruit from the stockpiles and place it in
+Making their life diffcult is the thief who aims to steal fruit from the stockpiles and place it in
 their hoards. The thief and gatherers follow rigid rules, and once they all reach their final goals (the
 fence), the simulation halts. They are quite industrious workers|with enough time, they could
 calculate anything that any computer can!</br></br>
@@ -27,3 +27,10 @@ simulation proceeds in ticks, with the tick rate (time between ticks) determined
 line parameter. If more than a maximum number of ticks (also determined by a command-line
 parameter) pass before halting, the simulation times out. Otherwise, the number of elapsed ticks,
 together with the amounts of fruit at each location, is printed to form the result of the world file.</br>
+
+### Command-line arguments
+Your simulation must take three command-line arguments: the tick rate (in milliseconds), the
+maximum number of ticks, and the world le. Here are some example argument lists for the
+program: </br>
+* 500 100 res/worlds/harvest.csv
+* 100 1000 res/worlds/sum.csv
