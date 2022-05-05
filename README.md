@@ -61,7 +61,7 @@ should be drawn at the top-left of its image.
 * **Fences**: a fence is stationary and takes no action upon a tick. Its image is located at
 **`res/images/fence.png`**.
 * **Signs**: a sign is stationary and takes no action upon a tick. It serves to redirect gatherers
-and thieves. There are four types of signs, with images located at
+and thieves. There are four types of signs, with images located at</br>
 -- **`res/images/left.png`**</br>
 -- **`res/images/right.png`**</br>
 -- **`res/images/up.png`**</br>
