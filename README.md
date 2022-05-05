@@ -48,7 +48,7 @@ an action every tick.</br>
 should be drawn at the top-left of its image. (We have provided a font, res/VeraMono.ttf,
 for you to use if you desire.)
 * **Golden Trees**: a golden tree is stationary and takes no action upon a tick. Its image is
-located at **`res/images/gold-tree.png`**. It has an innite reserve of fruit, and no number
+located at **`res/images/gold-tree.png`**. It has an infinite reserve of fruit, and no number
 should be drawn.
 * **Stockpiles**: a stockpile is stationary and takes no action upon a tick. Its image is located
 at **`res/images/cherries.png`**. It begins with 0 fruit. The current number of fruit at each
@@ -61,11 +61,11 @@ should be drawn at the top-left of its image.
 * **Fences**: a fence is stationary and takes no action upon a tick. Its image is located at
 **`res/images/fence.png`**.
 * **Signs**: a sign is stationary and takes no action upon a tick. It serves to redirect gatherers
-and thieves. There are four types of signs, with images located at
-{ **`res/images/left.png`**
-{ **`res/images/right.png`**
-{ **`res/images/up.png`**
-{ **`res/images/down.png`**
+and thieves. There are four types of signs, with images located at</br>
+- **`res/images/left.png`**</br>
+- **`res/images/right.png`**</br>
+- **`res/images/up.png`**</br>
+- **`res/images/down.png`**
 * **Mitosis Pools**: a mitosis pool is stationary and takes no action upon a tick. Its image is
 located at res/images/pool.png.
 * **Gatherers**: a gatherer contains state, and is initialised according to Algorithm 1. Each tick,
